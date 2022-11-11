@@ -401,9 +401,9 @@ input::-webkit-inner-spin-button {
     padding-bottom: 30px;
   }
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 568px) {
   .container {
-    width: 375px;
+    width: 300px;
   }
   .menu__desktop {
     display: none;
@@ -450,14 +450,14 @@ input::-webkit-inner-spin-button {
     margin-bottom:  100px;
   }
   .about__item {
-    max-width: 340px;
+    max-width: 300px;
   }
   .team__inner {
     flex-wrap: wrap;
     margin-top: 100px;
   }
   .team__item {
-    width: 340px;
+    width: 300px;
   }
   .team {
     margin-bottom: 100px;
