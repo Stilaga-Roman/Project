@@ -408,13 +408,24 @@ input::-webkit-inner-spin-button {
   .menu__desktop {
     display: none;
   }
-  .menu__mobile {
+  .menu__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+  .menu__mobile {
+    display: flex;
+    flex-direction: column;
+  }
   .menu {
     display: none;
+    text-align: center;
+  }
+  .menu a {
+    margin: 0;
+  }
+  .menu li {
+    padding: 5px 0;
   }
   .menu__burger {
     width: 30px;

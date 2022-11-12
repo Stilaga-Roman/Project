@@ -7,8 +7,11 @@ $(document).ready(function () {
         },500);
         $('nav a[href^="#"]').parent().removeClass('active');
         $(this).parent().addClass('active');
+        $('.menu__mobile .menu').toggle(500);
         return false;
     });
     /* мобильное меню */
-    
+    $('.menu__burger').click(function() {
+        $('.menu__mobile .menu').toggle(500);
+    })
 });
